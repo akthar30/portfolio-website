@@ -82,4 +82,51 @@
     .about-container2{
         margin-top: 1rem;
     }
+
+    /* Skill Section */
+
+    #skills{
+        margin-top: 17rem;
+        text-align: center;
+    }
+    .skills-conatiner{
+        display: block;
+    }
+    .skills_details-container{
+        padding: 0.5rem;
+        margin:  3rem 1rem; 
+    }
+    .article-container{
+        padding: 2rem;
+    }
+    article{
+        padding: 2rem 0;
+    }
+
+    /* Experience */
+
+    #experience{
+        margin-top: 45rem;
+        text-align: center;
+    }
+
+    .exp-p1{
+        font-size: medium;
+    }
+    .comapany-conatiner{
+        display: block;
+        margin: 3rem 1rem;
+        gap: 5rem;
+    }
+
+    .company-details{
+        margin-bottom: 1rem;
+    }
+
+    /* Projects */
+
+    #projects{
+        margin-top: -10rem;
+    }
+
 }

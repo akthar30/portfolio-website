@@ -89,7 +89,7 @@ nav a:hover{
 /* Section */
 section {
     padding-top: 4vh;
-    height: 96vh;
+    /* height: 96vh; */
     margin: 0 8rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -244,8 +244,122 @@ section {
 }
 
 .arrow{
+    margin-top: 1rem;
     float: right;
 }
 
+/* Skills */
 
+#skills{
+    margin-top: 5rem;
+    text-align: center;
+}
 
+.skills_pic-conatiner{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem 0;
+}
+
+.skills_pic-conatiner img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 10px;
+}
+
+.skills_pic-conatiner img:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.skills-conatiner{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.skills_details-container{
+    border: 2px solid rgba(100, 97, 97, 0.774);
+    padding: 1rem;
+    border-radius: 3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.article-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+}
+
+article{
+    display: flex;
+    padding: 2rem;
+}
+
+/* Exprecience */
+#experience{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.comapany-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+.company-details{
+    display: flex;
+    gap: 1rem;
+    border: 2px solid rgba(100, 97, 97, 0.774);
+    padding: 1rem;
+    border-radius: 3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.company-details img{
+    width: 200px;
+    height: 200px;
+}
+
+.company-designation{
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.des-btn{
+    margin-top: 0.5rem;
+}
+
+/* Projects */
+#projects{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.project-conatiner{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.project-details{
+    text-align: center;
+    border: 2px solid rgb(163, 163, 163);
+    padding: 1.5rem;
+    border-radius: 2rem;
+    background: rgb(250, 250, 250);
+}
+
+.project-details img{
+    border-radius: 2rem;
+    height: 200px;
+    width: 300px;
+    /* width: 90%;
+    height: 90%; */
+}
