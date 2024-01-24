@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jahir Hussian</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaquery.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Jahir Hussain</div>
+        <ul class="sidebar">
+            <li onclick=hidesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="nav-list">
+            <li class="hide"><a href="#about">About</a></li>
+            <li class="hide"><a href="#skills">Skills</a></li>
+            <li class="hide"><a href="#experience">Experience</a></li>
+            <li class="hide"><a href="#projects">Projects</a></li>
+            <li class="hide"><a href="#contact">Contact</a></li>
+            <li class="side-menu" onclick=showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <!-- Info Section -->
+    <section id="profile" class="section-container">
+        <div class="profile_pic-container">
+            <img src="./assets/profile-pic.png" alt="My profile pic">
+        </div>
+        <div class="profile_text-conatiner">
+            <p class="section_text-p1">Hello, I'm</p>
+            <h1 class="title">Jahir Hussain Ahmed</h1>
+            <p class="section_text-p2">Software Developer</p>
+            <div class="btn-container">
+                <button
+                class="btn btn-color-2"
+                onclick="window.open('./assets/Jahir-Resume.pdf')">
+                Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img
+                  src="./assets/linkedin.png"
+                  alt="My LinkedIn profile"
+                  class="icon"
+                  onclick="location.href='https:linkedin.com/in/jahir-hussain22'"
+                />
+                <img
+                  src="./assets/github.png"
+                  alt="My Github profile"
+                  class="icon"
+                  onclick="location.href='https://github.com/akthar30'"
+                />
+              </div>
+        </div>
+
+        <!--  -->
+        
+    </section>
+    <!-- About Section -->
+    <section id="about">
+        <p class="section_text-p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="about-container0">
+            <div class="about_pic-container">
+                <img src="./assets/about-pic.png" alt="My profile pic">
+            </div>
+            <div class="about-container1">
+                <div class="about-container2">
+                    <div class="about_exp-conatiner">
+                        <img
+                            src="./assets/experience.png"
+                            alt="Experience icon"
+                            class="icon"
+                          />
+                        <h3>Experience</h3>
+                        <p>2+ years </p>
+                        <p>Software Development</p>
+                    </div>
+                    <div class="about_edu-conatiner">
+                        <img
+                            src="./assets/education.png"
+                            alt="Education icon"
+                            class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>B.Tech NIT Sikkim</p>
+                        <p>Electrical & Electronics Engineering</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Hi! I'm a dynamic software developer currently contributing my skills 
+                        and expertise to the innovative team at Learnbay. 🖥️ In my role, I specialize 
+                        in web development, focusing on front-end technologies like HTML, CSS, and 
+                        JavaScript, as well as delving into backend intricacies with Node.js, 
+                        Express.js, and PostgreSQL. The power of React.js is a significant 
+                        part of my toolkit, enabling me to craft dynamic and responsive user interfaces.
+
+                        My educational foundation is in Electrical and Electronics Engineering, 
+                        having graduated from NIT Sikkim. This background instills in me a 
+                        strong analytical mindset and a knack for approaching challenges with 
+                        innovative solutions. 🎓
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#skills'"
+        />
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
