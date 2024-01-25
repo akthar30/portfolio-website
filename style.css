@@ -363,3 +363,44 @@ article{
     /* width: 90%;
     height: 90%; */
 }
+
+/* Contact */
+#contact{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.contact-info-upper-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.contact-icon{
+    width: 3rem;
+    height: 3rem;
+    border: 50%;
+    /* transition: box-shadow 0.3s ease; */
+}
+
+/* FOOTER SECTION */
+
+footer{
+    margin-top: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.hr{
+    width: 40rem;
+    border-bottom: 2px solid grey;
+    margin: 0 20rem;
+}
+
+.nav-links{
+    display: flex;
+    gap: 2rem;
+}
+
+

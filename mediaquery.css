@@ -129,4 +129,25 @@
         margin-top: -10rem;
     }
 
+    /* Contact */
+    #contact{
+        margin-top: 50rem;
+        text-align: center;
+    }
+
+    /* Footer */
+    footer{
+        margin-top: -38rem;
+    }
+    .hr{
+        width: 0;
+        border-bottom: 0;
+        margin: 0;
+    }
+
+    .nav-links{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
