@@ -16,6 +16,27 @@
     /* Section */
     section {
         margin: 0 1.5rem; 
+        padding-top: 0;
+    }
+
+    /* Profile */
+    #profile {
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        /* height: 80vh; */
+    }
+
+    /* Skills */
+    .skills-conatiner{
+        flex-wrap: wrap;
+    }
+
+    /* Footer */
+    .hr{
+        width: 0;
+        border-bottom: 0;
+        margin: 0;
     }
 }
 
@@ -30,7 +51,7 @@
     /* Section */
     section {
         padding-top: 4vh;
-        height: 96vh; 
+        /* height: 96vh;  */
         margin: 0 auto;
         box-sizing: border-box;
         min-height: fit-content;
@@ -86,7 +107,7 @@
     /* Skill Section */
 
     #skills{
-        margin-top: 17rem;
+        /* margin-top: 17rem; */
         text-align: center;
     }
     .skills-conatiner{
@@ -106,7 +127,7 @@
     /* Experience */
 
     #experience{
-        margin-top: 45rem;
+        /* margin-top: 45rem; */
         text-align: center;
     }
 
@@ -126,18 +147,18 @@
     /* Projects */
 
     #projects{
-        margin-top: -10rem;
+        /* margin-top: -10rem; */
     }
 
     /* Contact */
     #contact{
-        margin-top: 50rem;
+        /* margin-top: 50rem; */
         text-align: center;
     }
 
     /* Footer */
     footer{
-        margin-top: -38rem;
+        /* margin-top: -38rem; */
     }
     .hr{
         width: 0;
