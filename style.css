@@ -57,10 +57,23 @@ nav a:hover{
 
 .logo {
     font-size: 2rem;
+    padding-top: 1.3rem;
 }
   
 .logo:hover {
     cursor: default;
+}
+
+.logo-container{
+    display: flex;
+    /* gap: 0.5rem; */
+    justify-content: center;
+    text-align: center;
+}
+
+.logo-container img{
+    width: 100px;
+    height: 100px;
 }
 
 /* Sidebar */

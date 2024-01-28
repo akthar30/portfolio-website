@@ -40,6 +40,37 @@
     }
 }
 
+@media(max-width:380px){
+    /* About */
+    #about{
+        margin-top: 9rem;
+        text-align: center;
+    }
+    /* Experience */
+    .company-details img{
+        width: 150px;
+        height: 150px;
+    }
+    .company-designation{
+        text-align: left;
+        margin-top: 1rem;
+    }
+    
+}
+
+@media(max-width:390px){
+    /* Experience */
+    .company-details img{
+        width: 150px;
+        height: 150px;
+    }
+    .company-designation{
+        text-align: left;
+        margin-top: 1rem;
+    }
+    
+}
+
 @media(max-width:430px){
     /* SideBar Nav */
     .sidebar{
